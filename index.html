@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        border: 2px solid red;
+        padding: 20px;
+      }
+      .main-contain {
+        width: 100%;
+      }
+      main {
+        width: 20%;
+        box-sizing: border-box;
+        float: left;
+        height: 300px;
+      }
+      section {
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+        height: 300px;
+      }
+      aside {
+        float: right;
+        width: 20%;
+        box-sizing: border-box;
+        height: 300px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="box">header</header>
+    <div class="main-contain">
+      <main class="box">main</main>
+      <section class="box">section</section>
+      <aside class="box">aside</aside>
+    </div>
+    <footer class="box">footer</footer>
+  </body>
+</html>
